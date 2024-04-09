@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npx tsx index.ts"
+    "test": "ts-mocha -p tsconfig.json --timeout 20000 main.ts"
   },
   "dependencies": {
     "@solana/web3.js": "*",
@@ -10,7 +10,10 @@
     "@solana/spl-memo": "^0.2.3",
     "@solana/spl-token": "*",
     "@types/bn.js": "5.1.0",
+    "@types/mocha": "^10.0.6",
     "ts-node": "10.9.1",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
     "typescript": "*"
   },
   "resolutions": {

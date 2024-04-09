@@ -1,5 +1,5 @@
 import { Connection, Keypair, SystemProgram, LAMPORTS_PER_SOL, TransactionMessage } from '@solana/web3.js';
-import { airdrop } from 'functions';
+import { airdrop } from './functions';
 import * as multisig from "@sqds/multisig";
 
 console.log(multisig.PROGRAM_ADDRESS);
